@@ -4,6 +4,11 @@ function changeColor(color){
     square.style.background = color;
 }
 
+function clicked () {
+    var msg = "Build a<br>" + createBuzzwordPhrase();
+    words.innerHTML = msg;
+}
+
 square.addEventListener('click', (event) => changeColor('green'));
 
 /*Create Hover Effect */
