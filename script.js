@@ -16,7 +16,7 @@ function greeting() {
     words.innerHTML = 'Welcome to Flatland <br> I am Square!'
 }
 
-document.onload = greeting
+document.onload = greeting()
 
 function createBuzzwordPhrase() {
     /* See https://en.wikipedia.org/wiki/List_of_buzzwords */
