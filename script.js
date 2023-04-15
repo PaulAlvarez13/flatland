@@ -4,7 +4,12 @@ function changeColor(color){
     square.style.background = color;
 }
 
-square.addEventListener('click', (event) => changeColor('green'))
+square.addEventListener('click', (event) => changeColor('green'));
+
+/*Create Hover Effect */
+square.addEventListener('mouseover', (event) => changeColor('grey'));
+square.addEventListener('mouseout', (event) => changeColor('red'));
+
 
 function createBuzzwordPhrase() {
     /* See https://en.wikipedia.org/wiki/List_of_buzzwords */
